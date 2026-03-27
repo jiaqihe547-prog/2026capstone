@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Capstone"
+    },
+    {
+      "name": "reason_distributed",
+      "value": "用于跨设备数据同步与连接"
+    },
+    {
+      "name": "reason_internet",
+      "value": "用于设备网络通信"
+    }
+  ]
+}
