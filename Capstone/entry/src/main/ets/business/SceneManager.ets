@@ -20,30 +20,30 @@ export class SceneManager {
     return this.appState.sceneList.find(scene => scene.id === sceneId);
   }
 
-  // ---------------- 场景执行方法 ----------------
-  // 执行指定场景（核心功能）
+  // ---------------- Scene execution method ----------------
+  // Execute the specified scenario (core function)
   executeScene(sceneId: string): void {
     const scene = this.getSceneById(sceneId);
     if (!scene) {
-      console.warn('SceneManager', `未找到ID为【${sceneId}】的场景`);
+      console.warn('SceneManager', `Can't find id:【${sceneId}】 scene`);
       return;
     }
 
-    console.info('SceneManager', `开始执行场景：【${scene.name}】`);
-    // 遍历场景的动作列表，逐个执行
+    console.info('SceneManager', `Start execution scenario: 【${scene.name}】`);
+    // Traverse the action list of the scene and execute them one by one
     scene.actions.forEach(action => {
-      // 找到对应的设备
+      // Find the corresponding device
       const device = this.appState.deviceList.find(d => d.id === action.deviceId);
       if (device) {
-        // 更新设备开关状态
+        // Update the switch status of the device
         device.isOn = action.targetState;
         // 如果是灯光设备，同时更新亮度
         if (action.targetBrightness !== undefined && device.type === 'light') {
           device.brightness = action.targetBrightness;
         }
-        console.info('SceneManager', `设备【${device.name}】已更新状态`);
+        console.info('SceneManager', `Device【${device.name}】 has updated status`);
       }
     });
-    console.info('SceneManager', `场景【${scene.name}】执行完成`);
+    console.info('SceneManager', `Scene【${scene.name}】 execution is completed`);
   }
 }

@@ -1,0 +1,655 @@
+04-13 14:27:17.171  4,15597,682688154,-;express_gpu device id 10, func id 11
+04-13 14:27:17.171  4,15598,682719219,-;express_gpu invoke_id a0000000b 
+04-13 14:27:17.190  4,15599,682722726,-;express_gpu device id 10, func id 11
+04-13 14:27:17.190  4,15600,682733305,-;express_gpu invoke_id a0000000b 
+04-13 14:27:17.220  4,15601,682737309,-;express_gpu device id 10, func id 11
+04-13 14:27:17.221  4,15602,682762962,-;express_gpu invoke_id a0000000b 
+04-13 14:27:17.546  4,15603,682765220,-;express_gpu device id 10, func id 11
+04-13 14:27:17.546  3,15604,683089563,-;[AUTH_CTRL] no auth data for this pid = 1518\x0a, tgid
+04-13 14:27:17.546  3,15605,683092325,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:18.078  4,15606,683617074,-;express_hotplug open
+04-13 14:27:18.692  4,15607,683617080,-;express_hotplug read
+04-13 14:27:18.692  3,15608,684242443,-;[AUTH_CTRL] no auth data for this pid = 1889\x0a, tgid
+04-13 14:27:18.692  3,15609,684242976,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:18.692  3,15610,684244855,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:18.700  4,15611,684254289,-;kauditd_printk_skb: 991 callbacks suppressed
+04-13 14:27:18.700  5,15612,684254290,-;audit: type=1400 audit(1776061638.693:121341): avc:  denied  { ioctl } for  pid=859 comm="OS_FFRT_2_75" path="/dev/access_token_id" dev="tmpfs" ino=230 ioctlcmd=0x5413 scontext=u:r:foundation:s0 tcontext=u:object_r:dev_at_file:s0 tclass=chr_file permissive=0
+04-13 14:27:18.700  3,15613,684254436,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:18.700  5,15614,684255618,-;audit: type=1400 audit(1776061638.698:121342): avc:  denied  { ioctl } for  pid=859 comm="OS_FFRT_2_75" path="/dev/access_token_id" dev="tmpfs" ino=230 ioctlcmd=0x5413 scontext=u:r:foundation:s0 tcontext=u:object_r:dev_at_file:s0 tclass=chr_file permissive=0
+04-13 14:27:18.716  5,15615,684265855,-;audit: type=1400 audit(1776061638.698:121343): avc:  denied  { ioctl } for  pid=859 comm="OS_FFRT_2_75" path="/dev/access_token_id" dev="tmpfs" ino=230 ioctlcmd=0x5413 scontext=u:r:foundation:s0 tcontext=u:object_r:dev_at_file:s0 tclass=chr_file permissive=0
+04-13 14:27:18.716  5,15616,684269250,-;audit: type=1400 audit(1776061638.698:121344): avc:  denied  { ioctl } for  pid=859 comm="OS_FFRT_2_75" path="/dev/access_token_id" dev="tmpfs" ino=230 ioctlcmd=0x5413 scontext=u:r:foundation:s0 tcontext=u:object_r:dev_at_file:s0 tclass=chr_file permissive=0
+04-13 14:27:18.763  3,15617,684303453,-;[AUTH_CTRL] no auth data for this pid = 1889\x0a, tgid
+04-13 14:27:18.763  3,15618,684303455,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:18.763  5,15619,684305144,-;audit: type=1400 audit(1776061638.747:121345): avc:  denied  { read } for  pid=13055 comm="sh" name="u:object_r:musl_param:s0" dev="tmpfs" ino=57 scontext=u:r:sh:s0 tcontext=u:object_r:musl_param:s0 tclass=file permissive=0
+04-13 14:27:18.763  5,15620,684308359,-;audit: type=1400 audit(1776061638.747:121346): avc:  denied  { read } for  pid=13055 comm="sh" name="u:object_r:hitrace_param:s0" dev="tmpfs" ino=55 scontext=u:r:sh:s0 tcontext=u:object_r:hitrace_param:s0 tclass=file permissive=0
+04-13 14:27:18.763  4,15621,684308641,-;audit: audit_backlog=65 > audit_backlog_limit=64
+04-13 14:27:18.763  4,15622,684308680,-;audit: audit_backlog=65 > audit_backlog_limit=64
+04-13 14:27:18.763  4,15623,684308681,-;audit: audit_backlog=65 > audit_backlog_limit=64
+04-13 14:27:18.763  4,15624,684308681,-;audit: audit_lost=1235 audit_rate_limit=0 audit_backlog_limit=64
+04-13 14:27:18.809  3,15625,684351581,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:18.919  3,15626,684458972,-;[AUTH_CTRL] no auth data for this pid = 1632\x0a, tgid
+04-13 14:27:18.919  3,15627,684458973,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:19.090  4,15628,684629970,-;express_hotplug open
+04-13 14:27:19.450  4,15629,684629974,-;express_hotplug read
+04-13 14:27:19.450  3,15630,684999800,-;[AUTH_CTRL] no auth data for this pid = 3293\x0a, tgid
+04-13 14:27:19.450  3,15631,685000269,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:19.450  3,15632,685002878,-;[AUTH_CTRL] no auth data for this pid = 849\x0a, tgid
+04-13 14:27:19.450  3,15633,685002879,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:19.450  3,15634,685002973,-;[AUTH_CTRL] no auth data for this pid = 849\x0a, tgid
+04-13 14:27:19.450  3,15635,685004710,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:20.103  4,15636,685643271,-;express_hotplug open
+04-13 14:27:20.725  4,15637,685643274,-;express_hotplug read
+04-13 14:27:20.726  3,15638,686266167,-;[AUTH_CTRL] no auth data for this pid = 1928\x0a, tgid
+04-13 14:27:20.726  3,15639,686266629,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:20.867  3,15640,686406743,-;[AUTH_CTRL] no auth data for this pid = 1534\x0a, tgid
+04-13 14:27:20.867  3,15641,686406745,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:21.116  4,15642,686656031,-;express_hotplug open
+04-13 14:27:21.136  4,15643,686656033,-;express_hotplug read
+04-13 14:27:21.136  3,15644,686671962,-;[AUTH_CTRL] no auth data for this pid = 537\x0a, tgid
+04-13 14:27:21.136  3,15645,686672477,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:21.147  3,15646,686692445,-;[AUTH_CTRL] no auth data for this pid = 537\x0a, tgid
+04-13 14:27:21.147  3,15647,686692445,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:22.132  4,15648,687671091,-;express_hotplug open
+04-13 14:27:22.411  4,15649,687671097,-;express_hotplug read
+04-13 14:27:22.411  12,15650,687951126,-;APPSPAWN: [appspawn_kickdog.c:83]App enable -1
+04-13 14:27:22.426  12,15651,687966928,-;APPSPAWN: [appspawn_kickdog.c:83]Nweb enable -1
+04-13 14:27:23.161  4,15652,688707317,-;express_hotplug open
+04-13 14:27:23.443  4,15653,688707319,-;express_hotplug read
+04-13 14:27:23.443  14,15654,688983217,-;[pid=1][Init][INFO][kickdog_init.c:130]Kickdog: KickInitdog start
+04-13 14:27:23.443  14,15655,688984619,-;[pid=1][Init][INFO][kickdog_init.c:79]Kickdog: OpenInitWatchdogFile
+04-13 14:27:23.443  11,15656,688985609,-;[pid=1][Init][ERROR][kickdog_init.c:52]Kickdog:open /proc/sys/hguard/user_list fail,errno:2
+04-13 14:27:23.443  14,15657,688986879,-;[pid=1][Init][INFO][kickdog_init.c:93]Kickdog: open end,result:-1
+04-13 14:27:23.825  4,15658,689380081,-;kauditd_printk_skb: 1135 callbacks suppressed
+04-13 14:27:23.825  5,15659,689380082,-;audit: type=1400 audit(1776061643.822:122441): avc:  denied  { read } for  pid=13142 comm="sh" name="u:object_r:musl_param:s0" dev="tmpfs" ino=57 scontext=u:r:sh:s0 tcontext=u:object_r:musl_param:s0 tclass=file permissive=0
+04-13 14:27:23.830  5,15660,689384146,-;audit: type=1400 audit(1776061643.822:122442): avc:  denied  { read } for  pid=13142 comm="sh" name="u:object_r:hitrace_param:s0" dev="tmpfs" ino=55 scontext=u:r:sh:s0 tcontext=u:object_r:hitrace_param:s0 tclass=file permissive=0
+04-13 14:27:23.835  5,15661,689387777,-;audit: type=1400 audit(1776061643.822:122443): avc:  denied  { read } for  pid=13142 comm="sh" name="libdfx_signalhandler.z.so" dev="vda" ino=5895 scontext=u:r:sh:s0 tcontext=u:object_r:system_lib_file:s0 tclass=lnk_file permissive=0
+04-13 14:27:23.835  5,15662,689390939,-;audit: type=1400 audit(1776061643.822:122444): avc:  denied  { read } for  pid=13142 comm="sh" name="u:object_r:hook_param:s0" dev="tmpfs" ino=51 scontext=u:r:sh:s0 tcontext=u:object_r:hook_param:s0 tclass=file permissive=0
+04-13 14:27:23.841  5,15663,689393795,-;audit: type=1400 audit(1776061643.822:122445): avc:  denied  { read } for  pid=13142 comm="sh" name="u:object_r:versiontype_param:s0" dev="tmpfs" ino=113 scontext=u:r:sh:s0 tcontext=u:object_r:versiontype_param:s0 tclass=file permissive=0
+04-13 14:27:23.841  5,15664,689396891,-;audit: type=1400 audit(1776061643.822:122446): avc:  denied  { read } for  pid=13142 comm="sh" name="u:object_r:persist_param:s0" dev="tmpfs" ino=52 scontext=u:r:sh:s0 tcontext=u:object_r:persist_param:s0 tclass=file permissive=0
+04-13 14:27:23.847  5,15665,689399956,-;audit: type=1400 audit(1776061643.822:122447): avc:  denied  { read } for  pid=13142 comm="sh" name="u:object_r:musl_param:s0" dev="tmpfs" ino=57 scontext=u:r:sh:s0 tcontext=u:object_r:musl_param:s0 tclass=file permissive=0
+04-13 14:27:23.847  5,15666,689402901,-;audit: type=1400 audit(1776061643.822:122448): avc:  denied  { read } for  pid=13142 comm="sh" name="u:object_r:musl_param:s0" dev="tmpfs" ino=57 scontext=u:r:sh:s0 tcontext=u:object_r:musl_param:s0 tclass=file permissive=0
+04-13 14:27:23.853  5,15667,689406044,-;audit: type=1400 audit(1776061643.822:122449): avc:  denied  { read } for  pid=13142 comm="sh" name="u:object_r:musl_param:s0" dev="tmpfs" ino=57 scontext=u:r:sh:s0 tcontext=u:object_r:musl_param:s0 tclass=file permissive=0
+04-13 14:27:23.853  5,15668,689409064,-;audit: type=1400 audit(1776061643.822:122450): avc:  denied  { read } for  pid=13142 comm="sh" name="u:object_r:musl_param:s0" dev="tmpfs" ino=57 scontext=u:r:sh:s0 tcontext=u:object_r:musl_param:s0 tclass=file permissive=0
+04-13 14:27:24.174  4,15669,689708358,-;express_hotplug open
+04-13 14:27:24.469  4,15670,689708365,-;express_hotplug read
+04-13 14:27:24.469  3,15671,690022006,-;[AUTH_CTRL] no auth data for this pid = 1574\x0a, tgid
+04-13 14:27:24.469  3,15672,690022547,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:24.523  3,15673,690077040,-;[AUTH_CTRL] no auth data for this pid = 277\x0a, tgid
+04-13 14:27:24.523  3,15674,690077041,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:24.615  3,15675,690169069,-;[AUTH_CTRL] no auth data for this pid = 1599\x0a, tgid
+04-13 14:27:24.615  3,15676,690169070,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:25.176  4,15677,690730506,-;express_hotplug open
+04-13 14:27:25.843  4,15678,690730508,-;express_hotplug read
+04-13 14:27:25.843  3,15679,691395859,-;[AUTH_CTRL] no auth data for this pid = 1479\x0a, tgid
+04-13 14:27:25.843  3,15680,691396758,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:26.177  4,15681,691731445,-;express_hotplug open
+04-13 14:27:26.685  4,15682,691731447,-;express_hotplug read
+04-13 14:27:26.685  3,15683,692238075,-;[AUTH_CTRL] no auth data for this pid = 1518\x0a, tgid
+04-13 14:27:26.685  3,15684,692238520,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:27.179  4,15685,692732936,-;express_hotplug open
+04-13 14:27:27.906  4,15686,692732942,-;express_hotplug read
+04-13 14:27:27.906  3,15687,693459588,-;[AUTH_CTRL] no auth data for this pid = 3293\x0a, tgid
+04-13 14:27:27.906  3,15688,693460067,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:27.919  3,15689,693472977,-;[AUTH_CTRL] no auth data for this pid = 3293\x0a, tgid
+04-13 14:27:27.919  3,15690,693472978,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:27.927  4,15691,693481064,-;express_gpu invoke_id a0000000b 
+04-13 14:27:28.181  4,15692,693481065,-;express_gpu device id 10, func id 11
+04-13 14:27:28.181  4,15693,693735003,-;express_hotplug open
+04-13 14:27:28.802  4,15694,693735916,-;express_hotplug read
+04-13 14:27:28.803  3,15695,694352544,-;[AUTH_CTRL] no auth data for this pid = 2089\x0a, tgid
+04-13 14:27:28.803  3,15696,694354422,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:29.181  4,15697,694736223,-;kauditd_printk_skb: 918 callbacks suppressed
+04-13 14:27:29.181  5,15698,694736224,-;audit: type=1400 audit(1776061649.178:123369): avc:  denied  { read } for  pid=13218 comm="sh" name="u:object_r:musl_param:s0" dev="tmpfs" ino=57 scontext=u:r:sh:s0 tcontext=u:object_r:musl_param:s0 tclass=file permissive=0
+04-13 14:27:29.181  4,15699,694736629,-;express_hotplug open
+04-13 14:27:29.181  5,15700,694737061,-;audit: type=1400 audit(1776061649.178:123370): avc:  denied  { read } for  pid=13218 comm="sh" name="u:object_r:hitrace_param:s0" dev="tmpfs" ino=55 scontext=u:r:sh:s0 tcontext=u:object_r:hitrace_param:s0 tclass=file permissive=0
+04-13 14:27:29.185  4,15701,694739405,-;audit: audit_backlog=65 > audit_backlog_limit=64
+04-13 14:27:29.185  4,15702,694739406,-;audit: audit_lost=1250 audit_rate_limit=0 audit_backlog_limit=64
+04-13 14:27:29.185  3,15703,694739406,-;audit: backlog limit exceeded
+04-13 14:27:29.185  4,15704,694739411,-;audit: audit_backlog=65 > audit_backlog_limit=64
+04-13 14:27:29.185  4,15705,694739412,-;audit: audit_lost=1251 audit_rate_limit=0 audit_backlog_limit=64
+04-13 14:27:29.185  3,15706,694739413,-;audit: backlog limit exceeded
+04-13 14:27:29.185  4,15707,694739415,-;audit: audit_backlog=65 > audit_backlog_limit=64
+04-13 14:27:29.185  4,15708,694739416,-;audit: audit_lost=1252 audit_rate_limit=0 audit_backlog_limit=64
+04-13 14:27:30.186  4,15709,694739732,-;express_hotplug read
+04-13 14:27:30.186  3,15710,695739207,-;[AUTH_CTRL] no auth data for this pid = 302\x0a, tgid
+04-13 14:27:30.186  3,15711,695739927,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:30.203  4,15712,695757595,-;express_hotplug open
+04-13 14:27:30.887  4,15713,695757597,-;express_hotplug read
+04-13 14:27:30.887  3,15714,696440870,-;[AUTH_CTRL] no auth data for this pid = 1632\x0a, tgid
+04-13 14:27:30.887  3,15715,696441386,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:30.992  3,15716,696545596,-;[AUTH_CTRL] no auth data for this pid = 138\x0a, tgid
+04-13 14:27:30.993  3,15717,696545597,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:31.143  3,15718,696696407,-;[AUTH_CTRL] no auth data for this pid = 537\x0a, tgid
+04-13 14:27:31.143  3,15719,696696408,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:31.144  3,15720,696698622,-;[AUTH_CTRL] no auth data for this pid = 537\x0a, tgid
+04-13 14:27:31.144  3,15721,696698623,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:31.205  4,15722,696759060,-;express_hotplug open
+04-13 14:27:31.320  4,15723,696759062,-;express_hotplug read
+04-13 14:27:31.320  3,15724,696870389,-;[AUTH_CTRL] no auth data for this pid = 1889\x0a, tgid
+04-13 14:27:31.320  3,15725,696872274,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:32.207  4,15726,697761740,-;express_hotplug open
+04-13 14:27:32.400  4,15727,697761743,-;express_hotplug read
+04-13 14:27:32.400  12,15728,697953792,-;APPSPAWN: [appspawn_kickdog.c:83]App enable -1
+04-13 14:27:32.427  12,15729,697979832,-;APPSPAWN: [appspawn_kickdog.c:83]Nweb enable -1
+04-13 14:27:32.701  3,15730,698254982,-;[AUTH_CTRL] no auth data for this pid = 1928\x0a, tgid
+04-13 14:27:32.701  3,15731,698254983,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:32.841  3,15732,698395058,-;[AUTH_CTRL] no auth data for this pid = 1534\x0a, tgid
+04-13 14:27:32.841  3,15733,698395059,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:33.210  4,15734,698763515,-;express_hotplug open
+04-13 14:27:33.453  4,15735,698763520,-;express_hotplug read
+04-13 14:27:33.453  14,15736,698999895,-;[pid=1][Init][INFO][kickdog_init.c:130]Kickdog: KickInitdog start
+04-13 14:27:33.453  14,15737,699005832,-;[pid=1][Init][INFO][kickdog_init.c:79]Kickdog: OpenInitWatchdogFile
+04-13 14:27:33.453  11,15738,699008443,-;[pid=1][Init][ERROR][kickdog_init.c:52]Kickdog:open /proc/sys/hguard/user_list fail,errno:2
+04-13 14:27:33.457  14,15739,699011285,-;[pid=1][Init][INFO][kickdog_init.c:93]Kickdog: open end,result:-1
+04-13 14:27:34.184  4,15740,699735954,-;kauditd_printk_skb: 1125 callbacks suppressed
+04-13 14:27:34.184  5,15741,699735955,-;audit: type=1400 audit(1776061654.179:124489): avc:  denied  { read } for  pid=13303 comm="sh" name="libutils.z.so" dev="vda" ino=2857 scontext=u:r:sh:s0 tcontext=u:object_r:system_lib_file:s0 tclass=lnk_file permissive=0
+04-13 14:27:34.184  5,15742,699739645,-;audit: type=1400 audit(1776061654.179:124490): avc:  denied  { read } for  pid=13303 comm="sh" name="libutils.z.so" dev="vda" ino=6300 scontext=u:r:sh:s0 tcontext=u:object_r:system_lib_file:s0 tclass=lnk_file permissive=0
+04-13 14:27:34.191  5,15743,699742936,-;audit: type=1400 audit(1776061654.179:124491): avc:  denied  { read } for  pid=13303 comm="sh" name="libc++.so" dev="vda" ino=3314 scontext=u:r:sh:s0 tcontext=u:object_r:system_lib_file:s0 tclass=lnk_file permissive=0
+04-13 14:27:34.191  5,15744,699746159,-;audit: type=1400 audit(1776061654.179:124492): avc:  denied  { read } for  pid=13303 comm="sh" name="libclang_rt.ubsan_minimal.so" dev="vda" ino=2806 scontext=u:r:sh:s0 tcontext=u:object_r:system_lib_file:s0 tclass=lnk_file permissive=0
+04-13 14:27:34.197  5,15745,699749261,-;audit: type=1400 audit(1776061654.179:124493): avc:  denied  { read } for  pid=13303 comm="sh" name="libsec_shared.z.so" dev="vda" ino=2846 scontext=u:r:sh:s0 tcontext=u:object_r:system_lib_file:s0 tclass=lnk_file permissive=0
+04-13 14:27:34.197  5,15746,699752348,-;audit: type=1400 audit(1776061654.179:124494): avc:  denied  { read } for  pid=13303 comm="sh" name="libsec_shared.z.so" dev="vda" ino=6196 scontext=u:r:sh:s0 tcontext=u:object_r:system_lib_file:s0 tclass=lnk_file permissive=0
+04-13 14:27:34.203  5,15747,699755687,-;audit: type=1400 audit(1776061654.179:124495): avc:  denied  { read } for  pid=13303 comm="sh" name="libbegetutil.z.so" dev="vda" ino=2802 scontext=u:r:sh:s0 tcontext=u:object_r:system_lib_file:s0 tclass=lnk_file permissive=0
+04-13 14:27:34.203  5,15748,699758363,-;audit: type=1400 audit(1776061654.179:124496): avc:  denied  { read } for  pid=13303 comm="sh" name="libbegetutil.z.so" dev="vda" ino=5713 scontext=u:r:sh:s0 tcontext=u:object_r:system_lib_file:s0 tclass=lnk_file permissive=0
+04-13 14:27:34.209  5,15749,699761189,-;audit: type=1400 audit(1776061654.179:124497): avc:  denied  { read } for  pid=13303 comm="sh" name="u:object_r:startup_init_param:s0" dev="tmpfs" ino=37 scontext=u:r:sh:s0 tcontext=u:object_r:startup_init_param:s0 tclass=file permissive=0
+04-13 14:27:34.209  5,15750,699764247,-;audit: type=1400 audit(1776061654.179:124498): avc:  denied  { read } for  pid=13303 comm="rm" name="u:object_r:musl_param:s0" dev="tmpfs" ino=57 scontext=u:r:sh:s0 tcontext=u:object_r:musl_param:s0 tclass=file permissive=0
+04-13 14:27:34.213  4,15751,699765616,-;express_hotplug open
+04-13 14:27:34.661  4,15752,699767145,-;express_hotplug read
+04-13 14:27:34.661  3,15753,700214080,-;[AUTH_CTRL] no auth data for this pid = 643\x0a, tgid
+04-13 14:27:34.661  3,15754,700214789,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+0" dev="tmpfs" ino=51 scontext=u:r:sh:s0 tcontext=u:object_r:hook_param:s0 tclass=file permissive=0
+04-13 14:26:58.575  5,15107,664120167,-;audit: type=1400 audit(1776061618.546:117341): avc:  denied  { read } for  pid=12632 comm="sh" name="u:object_r:versiontype_param:s0" dev="tmpfs" ino=113 scontext=u:r:sh:s0 tcontext=u:object_r:versiontype_param:s0 tclass=file permissive=0
+04-13 14:26:58.575  5,15108,664124099,-;audit: type=1400 audit(1776061618.546:117342): avc:  denied  { read } for  pid=12632 comm="sh" name="u:object_r:persist_param:s0" dev="tmpfs" ino=52 scontext=u:r:sh:s0 tcontext=u:object_r:persist_param:s0 tclass=file permissive=0
+04-13 14:26:58.575  5,15109,664127636,-;audit: type=1400 audit(1776061618.546:117343): avc:  denied  { read } for  pid=12632 comm="sh" name="u:object_r:musl_param:s0" dev="tmpfs" ino=57 scontext=u:r:sh:s0 tcontext=u:object_r:musl_param:s0 tclass=file permissive=0
+04-13 14:26:58.575  5,15110,664131047,-;audit: type=1400 audit(1776061618.546:117344): avc:  denied  { read } for  pid=12632 comm="sh" name="u:object_r:musl_param:s0" dev="tmpfs" ino=57 scontext=u:r:sh:s0 tcontext=u:object_r:musl_param:s0 tclass=file permissive=0
+04-13 14:26:58.591  5,15111,664134142,-;audit: type=1400 audit(1776061618.546:117345): avc:  denied  { read } for  pid=12632 comm="sh" name="u:object_r:musl_param:s0" dev="tmpfs" ino=57 scontext=u:r:sh:s0 tcontext=u:object_r:musl_param:s0 tclass=file permissive=0
+04-13 14:26:58.839  4,15112,664379330,-;express_hotplug open
+04-13 14:26:59.645  4,15113,664379333,-;express_hotplug read
+04-13 14:26:59.645  3,15114,665196123,-;[AUTH_CTRL] no auth data for this pid = 277\x0a, tgid
+04-13 14:26:59.645  3,15115,665196125,-;[AUTH_CTRL] no auth data for this pid = 277\x0a, tgid
+04-13 14:26:59.645  3,15116,665196166,-;[AUTH_CTRL] no auth data for this pid = 277\x0a, tgid
+04-13 14:26:59.645  3,15117,665196167,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.645  3,15118,665196579,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.645  3,15119,665197520,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.645  3,15120,665198713,-;[AUTH_CTRL] no auth data for this pid = 277\x0a, tgid
+04-13 14:26:59.645  3,15121,665199344,-;[AUTH_CTRL] no auth data for this pid = 277\x0a, tgid
+04-13 14:26:59.645  3,15122,665199344,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.645  3,15123,665199356,-;[AUTH_CTRL] no auth data for this pid = 277\x0a, tgid
+04-13 14:26:59.645  3,15124,665199356,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.645  3,15125,665199647,-;[AUTH_CTRL] no auth data for this pid = 277\x0a, tgid
+04-13 14:26:59.645  3,15126,665200913,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.649  3,15127,665202635,-;[AUTH_CTRL] no auth data for this pid = 277\x0a, tgid
+04-13 14:26:59.649  3,15128,665202777,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.649  3,15129,665203823,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.661  3,15130,665205515,-;[AUTH_CTRL] no auth data for this pid = 849\x0a, tgid
+04-13 14:26:59.661  3,15131,665213780,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.670  4,15132,665224533,-;express_gpu invoke_id a0000000d 
+04-13 14:26:59.673  4,15133,665224534,-;express_gpu device id 10, func id 13
+04-13 14:26:59.674  3,15134,665226330,-;[AUTH_CTRL] no auth data for this pid = 277\x0a, tgid
+04-13 14:26:59.674  3,15135,665227104,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.679  3,15136,665233037,-;[AUTH_CTRL] no auth data for this pid = 3293\x0a, tgid
+04-13 14:26:59.679  3,15137,665233038,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.682  3,15138,665233676,-;[AUTH_CTRL] no auth data for this pid = 3293\x0a, tgid
+04-13 14:26:59.682  3,15139,665234725,-;[AUTH_CTRL] no auth data for this pid = 3293\x0a, tgid
+04-13 14:26:59.682  3,15140,665235045,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.682  3,15141,665236025,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.702  3,15142,665256222,-;[AUTH_CTRL] no auth data for this pid = 3293\x0a, tgid
+04-13 14:26:59.702  3,15143,665256223,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.729  3,15144,665283126,-;[AUTH_CTRL] no auth data for this pid = 3293\x0a, tgid
+04-13 14:26:59.729  3,15145,665283127,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.729  3,15146,665283201,-;[AUTH_CTRL] no auth data for this pid = 3293\x0a, tgid
+04-13 14:26:59.729  3,15147,665284506,-;[AUTH_CTRL] no auth data for this pid = 238\x0a, tgid
+04-13 14:26:59.729  3,15148,665284507,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.733  3,15149,665286770,-;[AUTH_CTRL] no auth data for this pid = 3293\x0a, tgid
+04-13 14:26:59.733  3,15150,665287879,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.742  4,15151,665288019,-;express_gpu invoke_id a0000000b 
+04-13 14:26:59.742  3,15152,665288967,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.742  4,15153,665289924,-;express_gpu device id 10, func id 11
+04-13 14:26:59.742  3,15154,665290800,-;[AUTH_CTRL] no auth data for this pid = 3293\x0a, tgid
+04-13 14:26:59.742  3,15155,665292931,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.746  4,15156,665299114,-;express_gpu invoke_id a0000000b 
+04-13 14:26:59.773  4,15157,665299116,-;express_gpu device id 10, func id 11
+04-13 14:26:59.773  3,15158,665314615,-;[AUTH_CTRL] no auth data for this pid = 238\x0a, tgid
+04-13 14:26:59.773  3,15159,665314662,-;[AUTH_CTRL] no auth data for this pid = 238\x0a, tgid
+04-13 14:26:59.773  3,15160,665314705,-;[AUTH_CTRL] no auth data for this pid = 238\x0a, tgid
+04-13 14:26:59.773  3,15161,665314706,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.773  3,15162,665315452,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.773  3,15163,665316580,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.773  3,15164,665317822,-;[AUTH_CTRL] no auth data for this pid = 238\x0a, tgid
+04-13 14:26:59.773  3,15165,665321717,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.773  4,15166,665328768,-;express_gpu invoke_id a0000000b 
+04-13 14:26:59.791  4,15167,665328770,-;express_gpu device id 10, func id 11
+04-13 14:26:59.791  4,15168,665344514,-;express_gpu invoke_id a0000000b 
+04-13 14:26:59.837  4,15169,665345468,-;express_gpu device id 10, func id 11
+04-13 14:26:59.837  4,15170,665375967,-;express_gpu invoke_id a0000000b 
+04-13 14:26:59.837  4,15171,665376754,-;express_gpu device id 10, func id 11
+04-13 14:26:59.842  4,15172,665391778,-;express_hotplug open
+04-13 14:26:59.842  4,15173,665392971,-;express_hotplug read
+04-13 14:26:59.842  4,15174,665393535,-;express_gpu invoke_id a0000000b 
+04-13 14:26:59.884  4,15175,665394039,-;express_gpu device id 10, func id 11
+04-13 14:26:59.884  4,15176,665423283,-;express_gpu invoke_id a0000000b 
+04-13 14:26:59.884  4,15177,665424070,-;express_gpu device id 10, func id 11
+04-13 14:26:59.884  4,15178,665434375,-;express_gpu invoke_id a0000000b 
+04-13 14:26:59.899  4,15179,665435128,-;express_gpu device id 10, func id 11
+04-13 14:26:59.899  3,15180,665440250,-;[AUTH_CTRL] no auth data for this pid = 849\x0a, tgid
+04-13 14:26:59.899  3,15181,665440283,-;[AUTH_CTRL] no auth data for this pid = 849\x0a, tgid
+04-13 14:26:59.899  3,15182,665441133,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.899  3,15183,665442205,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.901  3,15184,665455164,-;[AUTH_CTRL] no auth data for this pid = 3293\x0a, tgid
+04-13 14:26:59.901  3,15185,665455165,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:26:59.915  4,15186,665457433,-;express_gpu invoke_id a0000000b 
+04-13 14:26:59.917  4,15187,665457433,-;express_gpu device id 10, func id 11
+04-13 14:26:59.917  4,15188,665471555,-;express_gpu invoke_id a0000000b 
+04-13 14:26:59.946  4,15189,665472393,-;express_gpu device id 10, func id 11
+04-13 14:26:59.946  4,15190,665488429,-;express_gpu invoke_id a0000000b 
+04-13 14:26:59.962  4,15191,665489152,-;express_gpu device id 10, func id 11
+04-13 14:26:59.962  4,15192,665504411,-;express_gpu invoke_id a0000000b 
+04-13 14:26:59.977  4,15193,665505097,-;express_gpu device id 10, func id 11
+04-13 14:26:59.977  4,15194,665526781,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.025  4,15195,665527525,-;express_gpu device id 10, func id 11
+04-13 14:27:00.025  3,15196,665565795,-;[AUTH_CTRL] no auth data for this pid = 859\x0a, tgid
+04-13 14:27:00.025  3,15197,665566480,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:00.025  3,15198,665568510,-;[AUTH_CTRL] no auth data for this pid = 859\x0a, tgid
+04-13 14:27:00.025  3,15199,665568511,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:00.025  3,15200,665570593,-;[AUTH_CTRL] no auth data for this pid = 1599\x0a, tgid
+04-13 14:27:00.025  3,15201,665570594,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:00.025  3,15202,665570819,-;[AUTH_CTRL] no auth data for this pid = 1518\x0a, tgid
+04-13 14:27:00.025  3,15203,665572449,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:00.025  4,15204,665580856,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.031  4,15205,665580857,-;express_gpu device id 10, func id 11
+04-13 14:27:00.031  3,15206,665581836,-;[AUTH_CTRL] no auth data for this pid = 1518\x0a, tgid
+04-13 14:27:00.031  3,15207,665582546,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:00.031  3,15208,665583083,-;[AUTH_CTRL] no auth data for this pid = 859\x0a, tgid
+04-13 14:27:00.031  3,15209,665584521,-;[AUTH_CTRL] no auth data for this pid = 394\x0a, tgid
+04-13 14:27:00.031  3,15210,665584562,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:00.031  3,15211,665585589,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:00.043  3,15212,665597161,-;[AUTH_CTRL] no auth data for this pid = 1518\x0a, tgid
+04-13 14:27:00.043  3,15213,665597162,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:00.046  4,15214,665597352,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.087  4,15215,665599897,-;express_gpu device id 10, func id 11
+04-13 14:27:00.087  4,15216,665626431,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.118  4,15217,665627233,-;express_gpu device id 10, func id 11
+04-13 14:27:00.118  4,15218,665657645,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.148  4,15219,665658383,-;express_gpu device id 10, func id 11
+04-13 14:27:00.148  4,15220,665688735,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.164  4,15221,665689576,-;express_gpu device id 10, func id 11
+04-13 14:27:00.164  3,15222,665704181,-;[AUTH_CTRL] no auth data for this pid = 302\x0a, tgid
+04-13 14:27:00.164  3,15223,665705028,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:00.180  4,15224,665719621,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.211  4,15225,665719623,-;express_gpu device id 10, func id 11
+04-13 14:27:00.211  4,15226,665750620,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.226  4,15227,665751469,-;express_gpu device id 10, func id 11
+04-13 14:27:00.226  4,15228,665767098,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.257  4,15229,665767966,-;express_gpu device id 10, func id 11
+04-13 14:27:00.257  4,15230,665797364,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.274  4,15231,665798246,-;express_gpu device id 10, func id 11
+04-13 14:27:00.274  4,15232,665813307,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.305  4,15233,665814079,-;express_gpu device id 10, func id 11
+04-13 14:27:00.305  4,15234,665844607,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.336  4,15235,665845447,-;express_gpu device id 10, func id 11
+04-13 14:27:00.336  4,15236,665876916,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.368  4,15237,665877714,-;express_gpu device id 10, func id 11
+04-13 14:27:00.368  4,15238,665907468,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.398  4,15239,665908195,-;express_gpu device id 10, func id 11
+04-13 14:27:00.398  4,15240,665938318,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.429  4,15241,665939193,-;express_gpu device id 10, func id 11
+04-13 14:27:00.429  4,15242,665969904,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.445  4,15243,665973270,-;express_gpu device id 10, func id 11
+04-13 14:27:00.445  4,15244,665985814,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.456  4,15245,665988551,-;express_gpu device id 10, func id 11
+04-13 14:27:00.456  4,15246,666003990,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.492  4,15247,666007767,-;express_gpu device id 10, func id 11
+04-13 14:27:00.492  4,15248,666030952,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.506  4,15249,666033476,-;express_gpu device id 10, func id 11
+04-13 14:27:00.506  4,15250,666048168,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.506  3,15251,666051387,-;[AUTH_CTRL] no auth data for this pid = 1574\x0a, tgid
+04-13 14:27:00.506  3,15252,666051389,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:00.514  4,15253,666060389,-;express_gpu device id 10, func id 11
+04-13 14:27:00.514  4,15254,666063418,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.534  4,15255,666065770,-;express_gpu device id 10, func id 11
+04-13 14:27:00.535  4,15256,666078524,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.553  4,15257,666084823,-;express_gpu device id 10, func id 11
+04-13 14:27:00.553  4,15258,666097032,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.569  4,15259,666101545,-;express_gpu device id 10, func id 11
+04-13 14:27:00.569  4,15260,666116510,-;express_gpu invoke_id a0000000b 
+04-13 14:27:00.647  4,15261,666119310,-;express_gpu device id 10, func id 11
+04-13 14:27:00.647  3,15262,666187119,-;[AUTH_CTRL] no auth data for this pid = 1599\x0a, tgid
+04-13 14:27:00.647  3,15263,666189183,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:00.864  4,15264,666403910,-;express_hotplug open
+04-13 14:27:01.084  4,15265,666403915,-;express_hotplug read
+04-13 14:27:01.084  3,15266,666622573,-;[AUTH_CTRL] no auth data for this pid = 537\x0a, tgid
+04-13 14:27:01.084  3,15267,666625969,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:01.097  3,15268,666639526,-;[AUTH_CTRL] no auth data for this pid = 537\x0a, tgid
+04-13 14:27:01.097  3,15269,666639528,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:01.832  3,15270,667374423,-;[AUTH_CTRL] no auth data for this pid = 2089\x0a, tgid
+04-13 14:27:01.832  3,15271,667374427,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:01.879  4,15272,667420399,-;express_hotplug open
+04-13 14:27:01.879  4,15273,667420407,-;express_hotplug read
+04-13 14:27:01.879  3,15274,667422603,-;[AUTH_CTRL] no auth data for this pid = 1479\x0a, tgid
+04-13 14:27:01.879  3,15275,667431894,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:02.376  12,15276,667901541,-;APPSPAWN: [appspawn_kickdog.c:83]App enable -1
+04-13 14:27:02.376  12,15277,667922122,-;APPSPAWN: [appspawn_kickdog.c:83]Nweb enable -1
+04-13 14:27:02.504  4,15278,668053320,-;express_gpu invoke_id a0000000b 
+04-13 14:27:02.531  4,15279,668053322,-;express_gpu device id 10, func id 11
+04-13 14:27:02.531  4,15280,668073072,-;express_gpu invoke_id a0000000b 
+04-13 14:27:02.594  4,15281,668075832,-;express_gpu device id 10, func id 11
+04-13 14:27:02.594  4,15282,668138472,-;express_gpu invoke_id a0000000b 
+04-13 14:27:02.641  4,15283,668140959,-;express_gpu device id 10, func id 11
+04-13 14:27:02.641  4,15284,668188971,-;express_gpu invoke_id a0000000b 
+04-13 14:27:02.705  4,15285,668191161,-;express_gpu device id 10, func id 11
+04-13 14:27:02.705  4,15286,668254816,-;express_gpu invoke_id a0000000b 
+04-13 14:27:02.767  4,15287,668257618,-;express_gpu device id 10, func id 11
+04-13 14:27:02.767  4,15288,668315577,-;express_gpu invoke_id a0000000b 
+04-13 14:27:02.856  4,15289,668318275,-;express_gpu device id 10, func id 11
+04-13 14:27:02.857  4,15290,668399530,-;express_gpu invoke_id a0000000b 
+04-13 14:27:02.903  4,15291,668402182,-;express_gpu device id 10, func id 11
+04-13 14:27:02.903  4,15292,668442171,-;express_hotplug open
+04-13 14:27:03.371  4,15293,668445239,-;express_hotplug read
+04-13 14:27:03.372  14,15294,668910011,-;[pid=1][Init][INFO][kickdog_init.c:130]Kickdog: KickInitdog start
+04-13 14:27:03.372  14,15295,668917526,-;[pid=1][Init][INFO][kickdog_init.c:79]Kickdog: OpenInitWatchdogFile
+04-13 14:27:03.372  11,15296,668921091,-;[pid=1][Init][ERROR][kickdog_init.c:52]Kickdog:open /proc/sys/hguard/user_list fail,errno:2
+04-13 14:27:03.372  14,15297,668926788,-;[pid=1][Init][INFO][kickdog_init.c:93]Kickdog: open end,result:-1
+04-13 14:27:03.528  4,15298,669066845,-;kauditd_printk_skb: 929 callbacks suppressed
+04-13 14:27:03.528  5,15299,669066847,-;audit: type=1400 audit(1776061623.509:118263): avc:  denied  { ioctl } for  pid=1518 comm="ohos.sceneboard" path="/dev/access_token_id" dev="tmpfs" ino=230 ioctlcmd=0x5413 scontext=u:r:sceneboard_hap:s0 tcontext=u:object_r:dev_at_file:s0 tclass=chr_file permissive=0
+04-13 14:27:03.802  5,15300,669330920,-;audit: type=1400 audit(1776061623.772:118264): avc:  denied  { read } for  pid=12744 comm="sh" name="u:object_r:musl_param:s0" dev="tmpfs" ino=57 scontext=u:r:sh:s0 tcontext=u:object_r:musl_param:s0 tclass=file permissive=0
+04-13 14:27:03.802  4,15301,669345392,-;audit: audit_backlog=65 > audit_backlog_limit=64
+04-13 14:27:03.802  4,15302,669345400,-;audit: audit_backlog=65 > audit_backlog_limit=64
+04-13 14:27:03.802  4,15303,669345401,-;audit: audit_lost=1093 audit_rate_limit=0 audit_backlog_limit=64
+04-13 14:27:03.802  3,15304,669345402,-;audit: backlog limit exceeded
+04-13 14:27:03.802  4,15305,669345407,-;audit: audit_backlog=65 > audit_backlog_limit=64
+04-13 14:27:03.802  4,15306,669345407,-;audit: audit_lost=1094 audit_rate_limit=0 audit_backlog_limit=64
+04-13 14:27:03.802  3,15307,669345408,-;audit: backlog limit exceeded
+04-13 14:27:03.802  4,15308,669345425,-;audit: audit_backlog=65 > audit_backlog_limit=64
+04-13 14:27:03.903  4,15309,669452096,-;express_hotplug open
+04-13 14:27:04.927  4,15310,669452110,-;express_hotplug read
+04-13 14:27:04.927  4,15311,670466950,-;express_hotplug open
+04-13 14:27:05.622  4,15312,670471122,-;express_hotplug read
+04-13 14:27:05.622  3,15313,671165099,-;[AUTH_CTRL] no auth data for this pid = 138\x0a, tgid
+04-13 14:27:05.622  3,15314,671168100,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:05.938  4,15315,671486973,-;express_hotplug open
+04-13 14:27:06.585  4,15316,671486984,-;express_hotplug read
+04-13 14:27:06.585  3,15317,672125695,-;[AUTH_CTRL] no auth data for this pid = 1013\x0a, tgid
+04-13 14:27:06.585  3,15318,672127113,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:06.585  3,15319,672137299,-;[AUTH_CTRL] no auth data for this pid = 1013\x0a, tgid
+04-13 14:27:06.585  3,15320,672137301,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:06.585  7,15321,672138457,-;ieee80211 phy0: scan
+04-13 14:27:06.585   SUBSYSTEM=ieee80211
+04-13 14:27:06.585   DEVICE=+ieee80211:phy0
+04-13 14:27:06.585  3,15322,672138499,-;[AUTH_CTRL] no auth data for this pid = 1013\x0a, tgid
+04-13 14:27:06.585  3,15323,672138500,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:06.585  3,15324,672138571,-;[AUTH_CTRL] no auth data for this pid = 859\x0a, tgid
+04-13 14:27:06.585  3,15325,672138572,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:06.585  3,15326,672138953,-;[AUTH_CTRL] no auth data for this pid = 859\x0a, tgid
+04-13 14:27:06.585  3,15327,672138954,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:06.585  3,15328,672139221,-;[AUTH_CTRL] no auth data for this pid = 303\x0a, tgid
+04-13 14:27:06.585  3,15329,672139221,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:06.913  3,15330,672453565,-;[AUTH_CTRL] no auth data for this pid = 1632\x0a, tgid
+04-13 14:27:06.913  3,15331,672453568,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:06.960  4,15332,672499180,-;express_hotplug open
+04-13 14:27:07.100  4,15333,672499186,-;express_hotplug read
+04-13 14:27:07.101  3,15334,672638851,-;[AUTH_CTRL] no auth data for this pid = 246\x0a, tgid
+04-13 14:27:07.101  3,15335,672640459,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:07.332  3,15336,672872553,-;[AUTH_CTRL] no auth data for this pid = 1518\x0a, tgid
+04-13 14:27:07.332  3,15337,672872556,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:07.969  4,15338,673510508,-;express_hotplug open
+04-13 14:27:08.538  4,15339,673510513,-;express_hotplug read
+04-13 14:27:08.538  4,15340,674070735,-;kauditd_printk_skb: 1067 callbacks suppressed
+04-13 14:27:08.538  5,15341,674070737,-;audit: type=1400 audit(1776061628.511:119283): avc:  denied  { read } for  pid=12828 comm="mkdir" name="u:object_r:hook_param:s0" dev="tmpfs" ino=51 scontext=u:r:sh:s0 tcontext=u:object_r:hook_param:s0 tclass=file permissive=0
+04-13 14:27:08.563  5,15342,674096705,-;audit: type=1400 audit(1776061628.512:119284): avc:  denied  { read } for  pid=12828 comm="mkdir" name="u:object_r:versiontype_param:s0" dev="tmpfs" ino=113 scontext=u:r:sh:s0 tcontext=u:object_r:versiontype_param:s0 tclass=file permissive=0
+04-13 14:27:08.563  5,15343,674118085,-;audit: type=1400 audit(1776061628.512:119285): avc:  denied  { read } for  pid=12828 comm="mkdir" name="u:object_r:persist_param:s0" dev="tmpfs" ino=52 scontext=u:r:sh:s0 tcontext=u:object_r:persist_param:s0 tclass=file permissive=0
+04-13 14:27:08.601  5,15344,674133754,-;audit: type=1400 audit(1776061628.512:119286): avc:  denied  { read } for  pid=12828 comm="mkdir" name="u:object_r:musl_param:s0" dev="tmpfs" ino=57 scontext=u:r:sh:s0 tcontext=u:object_r:musl_param:s0 tclass=file permissive=0
+04-13 14:27:08.602  5,15345,674142548,-;audit: type=1400 audit(1776061628.512:119287): avc:  denied  { read } for  pid=12828 comm="mkdir" name="u:object_r:musl_param:s0" dev="tmpfs" ino=57 scontext=u:r:sh:s0 tcontext=u:object_r:musl_param:s0 tclass=file permissive=0
+04-13 14:27:08.618  5,15346,674157715,-;audit: type=1400 audit(1776061628.512:119288): avc:  denied  { read } for  pid=12828 comm="mkdir" name="u:object_r:musl_param:s0" dev="tmpfs" ino=57 scontext=u:r:sh:s0 tcontext=u:object_r:musl_param:s0 tclass=file permissive=0
+04-13 14:27:08.621  5,15347,674171733,-;audit: type=1400 audit(1776061628.512:119289): avc:  denied  { read } for  pid=12828 comm="mkdir" name="u:object_r:musl_param:s0" dev="tmpfs" ino=57 scontext=u:r:sh:s0 tcontext=u:object_r:musl_param:s0 tclass=file permissive=0
+04-13 14:27:08.649  5,15348,674187688,-;audit: type=1400 audit(1776061628.512:119290): avc:  denied  { read } for  pid=12828 comm="mkdir" name="u:object_r:hitrace_param:s0" dev="tmpfs" ino=55 scontext=u:r:sh:s0 tcontext=u:object_r:hitrace_param:s0 tclass=file permissive=0
+04-13 14:27:08.649  5,15349,674204636,-;audit: type=1400 audit(1776061628.512:119291): avc:  denied  { read } for  pid=12828 comm="mkdir" name="libutils.z.so" dev="vda" ino=2857 scontext=u:r:sh:s0 tcontext=u:object_r:system_lib_file:s0 tclass=lnk_file permissive=0
+04-13 14:27:08.683  5,15350,674222677,-;audit: type=1400 audit(1776061628.512:119292): avc:  denied  { read } for  pid=12828 comm="mkdir" name="libutils.z.so" dev="vda" ino=6300 scontext=u:r:sh:s0 tcontext=u:object_r:system_lib_file:s0 tclass=lnk_file permissive=0
+04-13 14:27:08.732  3,15351,674270825,-;[AUTH_CTRL] no auth data for this pid = 1928\x0a, tgid
+04-13 14:27:08.732  3,15352,674270827,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:08.732  3,15353,674273482,-;[AUTH_CTRL] no auth data for this pid = 537\x0a, tgid
+04-13 14:27:08.732  3,15354,674285686,-;[AUTH_CTRL] no auth data for this pid = 859\x0a, tgid
+04-13 14:27:08.732  3,15355,674285688,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:08.763  3,15356,674306189,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:08.871  3,15357,674410224,-;[AUTH_CTRL] no auth data for this pid = 1534\x0a, tgid
+04-13 14:27:08.871  3,15358,674410226,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:08.967  4,15359,674520724,-;express_hotplug open
+04-13 14:27:09.997  4,15360,674520729,-;express_hotplug read
+04-13 14:27:09.997  4,15361,675537509,-;express_hotplug open
+04-13 14:27:10.172  4,15362,675539689,-;express_hotplug read
+04-13 14:27:10.172  3,15363,675710110,-;[AUTH_CTRL] no auth data for this pid = 302\x0a, tgid
+04-13 14:27:10.172  3,15364,675712223,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:10.340  3,15365,675879905,-;[AUTH_CTRL] no auth data for this pid = 1889\x0a, tgid
+04-13 14:27:10.340  3,15366,675879907,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:10.732  3,15367,676271368,-;[AUTH_CTRL] no auth data for this pid = 138\x0a, tgid
+04-13 14:27:10.732  3,15368,676271372,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:10.747  3,15369,676290637,-;[AUTH_CTRL] no auth data for this pid = 138\x0a, tgid
+04-13 14:27:10.747  3,15370,676290640,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:11.013  4,15371,676552320,-;express_hotplug open
+04-13 14:27:11.114  4,15372,676552328,-;express_hotplug read
+04-13 14:27:11.114  3,15373,676659829,-;[AUTH_CTRL] no auth data for this pid = 537\x0a, tgid
+04-13 14:27:11.114  3,15374,676661544,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:11.456  3,15375,677000611,-;[AUTH_CTRL] no auth data for this pid = 3293\x0a, tgid
+04-13 14:27:11.459  3,15376,677000613,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:11.475  3,15377,677020667,-;[AUTH_CTRL] no auth data for this pid = 3293\x0a, tgid
+04-13 14:27:11.476  3,15378,677020668,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:11.490  3,15379,677022331,-;[AUTH_CTRL] no auth data for this pid = 3293\x0a, tgid
+04-13 14:27:11.490  3,15380,677037775,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:12.022  4,15381,677561518,-;express_hotplug open
+04-13 14:27:12.395  4,15382,677561524,-;express_hotplug read
+04-13 14:27:12.395  12,15383,677934493,-;APPSPAWN: [appspawn_kickdog.c:83]App enable -1
+04-13 14:27:12.395  12,15384,677936471,-;APPSPAWN: [appspawn_kickdog.c:83]Nweb enable -1
+04-13 14:27:12.495  3,15385,678043848,-;[AUTH_CTRL] no auth data for this pid = 1574\x0a, tgid
+04-13 14:27:12.495  3,15386,678043850,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:12.644  3,15387,678183964,-;[AUTH_CTRL] no auth data for this pid = 1599\x0a, tgid
+04-13 14:27:12.644  3,15388,678183966,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:13.033  4,15389,678572412,-;express_hotplug open
+04-13 14:27:13.411  4,15390,678572417,-;express_hotplug read
+04-13 14:27:13.411  14,15391,678947648,-;[pid=1][Init][INFO][kickdog_init.c:130]Kickdog: KickInitdog start
+04-13 14:27:13.411  14,15392,678954807,-;[pid=1][Init][INFO][kickdog_init.c:79]Kickdog: OpenInitWatchdogFile
+04-13 14:27:13.411  11,15393,678959064,-;[pid=1][Init][ERROR][kickdog_init.c:52]Kickdog:open /proc/sys/hguard/user_list fail,errno:2
+04-13 14:27:13.423  14,15394,678966759,-;[pid=1][Init][INFO][kickdog_init.c:93]Kickdog: open end,result:-1
+04-13 14:27:13.613  4,15395,679154788,-;kauditd_printk_skb: 1416 callbacks suppressed
+04-13 14:27:13.614  5,15396,679154789,-;audit: type=1400 audit(1776061633.594:120340): avc:  denied  { read } for  pid=12916 comm="sh" name="u:object_r:musl_param:s0" dev="tmpfs" ino=57 scontext=u:r:sh:s0 tcontext=u:object_r:musl_param:s0 tclass=file permissive=0
+04-13 14:27:13.614  5,15397,679169069,-;audit: type=1400 audit(1776061633.594:120341): avc:  denied  { read } for  pid=12916 comm="sh" name="u:object_r:hitrace_param:s0" dev="tmpfs" ino=55 scontext=u:r:sh:s0 tcontext=u:object_r:hitrace_param:s0 tclass=file permissive=0
+04-13 14:27:13.651  5,15398,679188052,-;audit: type=1400 audit(1776061633.594:120342): avc:  denied  { read } for  pid=12916 comm="sh" name="libdfx_signalhandler.z.so" dev="vda" ino=5895 scontext=u:r:sh:s0 tcontext=u:object_r:system_lib_file:s0 tclass=lnk_file permissive=0
+04-13 14:27:13.651  5,15399,679205938,-;audit: type=1400 audit(1776061633.594:120343): avc:  denied  { read } for  pid=12916 comm="sh" name="u:object_r:hook_param:s0" dev="tmpfs" ino=51 scontext=u:r:sh:s0 tcontext=u:object_r:hook_param:s0 tclass=file permissive=0
+04-13 14:27:13.683  5,15400,679221551,-;audit: type=1400 audit(1776061633.594:120344): avc:  denied  { read } for  pid=12916 comm="sh" name="u:object_r:versiontype_param:s0" dev="tmpfs" ino=113 scontext=u:r:sh:s0 tcontext=u:object_r:versiontype_param:s0 tclass=file permissive=0
+04-13 14:27:13.684  5,15401,679237227,-;audit: type=1400 audit(1776061633.594:120345): avc:  denied  { read } for  pid=12916 comm="sh" name="u:object_r:persist_param:s0" dev="tmpfs" ino=52 scontext=u:r:sh:s0 tcontext=u:object_r:persist_param:s0 tclass=file permissive=0
+04-13 14:27:13.705  5,15402,679248029,-;audit: type=1400 audit(1776061633.594:120346): avc:  denied  { read } for  pid=12916 comm="sh" name="u:object_r:musl_param:s0" dev="tmpfs" ino=57 scontext=u:r:sh:s0 tcontext=u:object_r:musl_param:s0 tclass=file permissive=0
+04-13 14:27:13.705  5,15403,679260370,-;audit: type=1400 audit(1776061633.594:120347): avc:  denied  { read } for  pid=12916 comm="sh" name="u:object_r:musl_param:s0" dev="tmpfs" ino=57 scontext=u:r:sh:s0 tcontext=u:object_r:musl_param:s0 tclass=file permissive=0
+04-13 14:27:13.730  5,15404,679270517,-;audit: type=1400 audit(1776061633.594:120348): avc:  denied  { read } for  pid=12916 comm="sh" name="u:object_r:musl_param:s0" dev="tmpfs" ino=57 scontext=u:r:sh:s0 tcontext=u:object_r:musl_param:s0 tclass=file permissive=0
+04-13 14:27:13.730  5,15405,679285301,-;audit: type=1400 audit(1776061633.594:120349): avc:  denied  { read } for  pid=12916 comm="sh" name="u:object_r:musl_param:s0" dev="tmpfs" ino=57 scontext=u:r:sh:s0 tcontext=u:object_r:musl_param:s0 tclass=file permissive=0
+04-13 14:27:13.765  6,15406,679306279,-;binder: 12903:12903 transaction failed 29201/-1, size 104-8 line 3342
+04-13 14:27:13.765  6,15407,679309501,-;binder: 12903:12903 ioctl c04462a1 7ffc71659510 returned -22
+04-13 14:27:13.814  3,15408,679357212,-;[AUTH_CTRL] no auth data for this pid = 2089\x0a, tgid
+04-13 14:27:13.814  3,15409,679357214,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:13.814  3,15410,679363510,-;[AUTH_CTRL] no auth data for this pid = 189\x0a, tgid
+04-13 14:27:13.814  3,15411,679369588,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:13.839  3,15412,679387241,-;[AUTH_CTRL] no auth data for this pid = 189\x0a, tgid
+04-13 14:27:13.839  3,15413,679387243,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:13.848  3,15414,679398257,-;[AUTH_CTRL] no auth data for this pid = 1479\x0a, tgid
+04-13 14:27:13.848  3,15415,679398259,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:13.882  3,15416,679430079,-;[AUTH_CTRL] no auth data for this pid = 238\x0a, tgid
+04-13 14:27:13.882  3,15417,679430081,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:13.882  3,15418,679431116,-;[AUTH_CTRL] no auth data for this pid = 238\x0a, tgid
+04-13 14:27:13.885  3,15419,679437869,-;[AUTH_CTRL] no auth data for this pid = 238\x0a, tgid
+04-13 14:27:13.885  3,15420,679438040,-;[AUTH_CTRL] no auth data for this pid = 238\x0a, tgid
+04-13 14:27:13.885  3,15421,679438042,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:13.885  3,15422,679438448,-;[AUTH_CTRL] no auth data for this pid = 238\x0a, tgid
+04-13 14:27:13.885  3,15423,679438450,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:13.895  3,15424,679442663,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:13.895  3,15425,679442802,-;[AUTH_CTRL] no auth data for this pid = 238\x0a, tgid
+04-13 14:27:13.895  3,15426,679446970,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:13.937  3,15427,679481063,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:13.937  3,15428,679487154,-;[AUTH_CTRL] no auth data for this pid = 859\x0a, tgid
+04-13 14:27:13.937  3,15429,679487157,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:14.026  4,15430,679576976,-;express_hotplug open
+04-13 14:27:14.053  4,15431,679576981,-;express_hotplug read
+04-13 14:27:14.053  3,15432,679600434,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:14.053  3,15433,679606130,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:14.106  3,15434,679646927,-;[AUTH_CTRL] no auth data for this pid = 3293\x0a, tgid
+04-13 14:27:14.107  3,15435,679646929,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.043  4,15436,680583723,-;express_hotplug open
+04-13 14:27:15.274  4,15437,680583728,-;express_hotplug read
+04-13 14:27:15.274  6,15438,680814799,-;binder: 12903:12903 transaction failed 29201/-1, size 104-8 line 3651
+04-13 14:27:15.274  6,15439,680821092,-;binder: 12903:12903 ioctl c04462a1 7ffc71658eb0 returned -22
+04-13 14:27:15.287  3,15440,680838459,-;[AUTH_CTRL] no auth data for this pid = 277\x0a, tgid
+04-13 14:27:15.287  3,15441,680838461,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.287  3,15442,680838496,-;[AUTH_CTRL] no auth data for this pid = 277\x0a, tgid
+04-13 14:27:15.287  3,15443,680839777,-;[AUTH_CTRL] no auth data for this pid = 3293\x0a, tgid
+04-13 14:27:15.287  3,15444,680839779,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.292  3,15445,680842563,-;[AUTH_CTRL] no auth data for this pid = 277\x0a, tgid
+04-13 14:27:15.292  3,15446,680842674,-;[AUTH_CTRL] no auth data for this pid = 277\x0a, tgid
+04-13 14:27:15.292  3,15447,680842676,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.292  3,15448,680844519,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.292  3,15449,680847149,-;[AUTH_CTRL] no auth data for this pid = 277\x0a, tgid
+04-13 14:27:15.292  3,15450,680847150,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.297  3,15451,680852499,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.368  3,15452,680862932,-;[AUTH_CTRL] no auth data for this pid = 277\x0a, tgid
+04-13 14:27:15.368  3,15453,680913057,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.425  3,15454,680978221,-;[AUTH_CTRL] no auth data for this pid = 1518\x0a, tgid
+04-13 14:27:15.425  3,15455,680978223,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.448  3,15456,680998669,-;[AUTH_CTRL] no auth data for this pid = 1518\x0a, tgid
+04-13 14:27:15.448  3,15457,680998670,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.474  3,15458,681019394,-;[AUTH_CTRL] no auth data for this pid = 1518\x0a, tgid
+04-13 14:27:15.474  3,15459,681019396,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.502  3,15460,681049609,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:15.506  3,15461,681052060,-;[AUTH_CTRL] no auth data for this pid = 859\x0a, tgid
+04-13 14:27:15.506  3,15462,681056358,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.518  3,15463,681066393,-;[AUTH_CTRL] no auth data for this pid = 302\x0a, tgid
+04-13 14:27:15.518  3,15464,681073258,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.525  3,15465,681075383,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:15.551  3,15466,681089201,-;[AUTH_CTRL] no auth data for this pid = 302\x0a, tgid
+04-13 14:27:15.555  3,15467,681100604,-;[AUTH_CTRL] no auth data for this pid = 302\x0a, tgid
+04-13 14:27:15.555  3,15468,681103824,-;[AUTH_CTRL] no auth data for this pid = 302\x0a, tgid
+04-13 14:27:15.555  3,15469,681103824,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.555  3,15470,681109389,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.594  3,15471,681118495,-;[AUTH_CTRL] no auth data for this pid = 361\x0a, tgid
+04-13 14:27:15.594  3,15472,681123046,-;[AUTH_CTRL] no auth data for this pid = 302\x0a, tgid
+04-13 14:27:15.594  3,15473,681123047,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.594  3,15474,681123424,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.594  3,15475,681130548,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:15.594  3,15476,681133271,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.594  3,15477,681135788,-;[AUTH_CTRL] no auth data for this pid = 859\x0a, tgid
+04-13 14:27:15.594  3,15478,681141192,-;[AUTH_CTRL] no auth data for this pid = 361\x0a, tgid
+04-13 14:27:15.594  3,15479,681141447,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.594  3,15480,681143944,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.612  3,15481,681147192,-;[AUTH_CTRL] no auth data for this pid = 302\x0a, tgid
+04-13 14:27:15.612  3,15482,681155548,-;[AUTH_CTRL] no auth data for this pid = 302\x0a, tgid
+04-13 14:27:15.612  3,15483,681158786,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.612  3,15484,681162504,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:15.612  3,15485,681162820,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:15.612  3,15486,681163207,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:15.612  3,15487,681163428,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:15.612  3,15488,681163683,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:15.612  3,15489,681165107,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.622  3,15490,681165645,-;[AUTH_CTRL] no auth data for this pid = 189\x0a, tgid
+04-13 14:27:15.622  3,15491,681170630,-;[AUTH_CTRL] no auth data for this pid = 189\x0a, tgid
+04-13 14:27:15.622  3,15492,681170630,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.658  3,15493,681185302,-;[AUTH_CTRL] no auth data for this pid = 859\x0a, tgid
+04-13 14:27:15.658  3,15494,681192937,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.723  3,15495,681217796,-;[AUTH_CTRL] no auth data for this pid = 1013\x0a, tgid
+04-13 14:27:15.723  3,15496,681217833,-;[AUTH_CTRL] no auth data for this pid = 1013\x0a, tgid
+04-13 14:27:15.723  3,15497,681217834,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.723  3,15498,681217972,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.723  3,15499,681221822,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.723  3,15500,681262662,-;[AUTH_CTRL] no auth data for this pid = 859\x0a, tgid
+04-13 14:27:15.723  3,15501,681265050,-;[AUTH_CTRL] no auth data for this pid = 849\x0a, tgid
+04-13 14:27:15.723  3,15502,681269232,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.723  3,15503,681272709,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.727  3,15504,681276615,-;[AUTH_CTRL] no auth data for this pid = 859\x0a, tgid
+04-13 14:27:15.727  3,15505,681279499,-;[AUTH_CTRL] no auth data for this pid = 1013\x0a, tgid
+04-13 14:27:15.727  3,15506,681281467,-;[AUTH_CTRL] no auth data for this pid = 1013\x0a, tgid
+04-13 14:27:15.727  3,15507,681281468,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.727  3,15508,681281608,-;[AUTH_CTRL] no auth data for this pid = 1013\x0a, tgid
+04-13 14:27:15.727  3,15509,681281609,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.730  3,15510,681285595,-;[AUTH_CTRL] no auth data for this pid = 1013\x0a, tgid
+04-13 14:27:15.730  3,15511,681285596,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.730  3,15512,681285621,-;[AUTH_CTRL] no auth data for this pid = 1013\x0a, tgid
+04-13 14:27:15.730  3,15513,681285621,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.730  3,15514,681285638,-;[AUTH_CTRL] no auth data for this pid = 1013\x0a, tgid
+04-13 14:27:15.730  3,15515,681285639,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.733  3,15516,681286620,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.817  3,15517,681366999,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:15.826  4,15518,681372519,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.042  4,15519,681372520,-;express_gpu device id 10, func id 11
+04-13 14:27:16.042  4,15520,681587641,-;express_hotplug open
+04-13 14:27:16.072  4,15521,681592708,-;express_hotplug read
+04-13 14:27:16.072  4,15522,681620885,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.095  4,15523,681623261,-;express_gpu device id 10, func id 11
+04-13 14:27:16.095  4,15524,681643566,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.147  4,15525,681646099,-;express_gpu device id 10, func id 11
+04-13 14:27:16.147  3,15526,681695770,-;[AUTH_CTRL] no auth data for this pid = 1518\x0a, tgid
+04-13 14:27:16.147  3,15527,681698507,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:16.170  3,15528,681705463,-;[AUTH_CTRL] no auth data for this pid = 1518\x0a, tgid
+04-13 14:27:16.170  3,15529,681706084,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:16.170  4,15530,681715555,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.193  4,15531,681715556,-;express_gpu device id 10, func id 11
+04-13 14:27:16.193  3,15532,681732256,-;[AUTH_CTRL] no auth data for this pid = 859\x0a, tgid
+04-13 14:27:16.193  3,15533,681736533,-;[QOS_CTRL] do_qos_ctrl_ioctl: pid not authorized
+04-13 14:27:16.193  4,15534,681737749,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.224  4,15535,681744193,-;express_gpu device id 10, func id 11
+04-13 14:27:16.224  4,15536,681770651,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.224  4,15537,681773744,-;express_gpu device id 10, func id 11
+04-13 14:27:16.224  3,15538,681774801,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:16.244  3,15539,681793246,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:16.255  4,15540,681801119,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.273  4,15541,681801120,-;express_gpu device id 10, func id 11
+04-13 14:27:16.273  4,15542,681820559,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.301  4,15543,681823617,-;express_gpu device id 10, func id 11
+04-13 14:27:16.301  3,15544,681842933,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:16.301  4,15545,681851747,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.311  4,15546,681851749,-;express_gpu device id 10, func id 11
+04-13 14:27:16.311  4,15547,681861331,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.311  3,15548,681861994,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:16.328  4,15549,681863473,-;express_gpu device id 10, func id 11
+04-13 14:27:16.329  4,15550,681874599,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.329  4,15551,681876675,-;express_gpu device id 10, func id 11
+04-13 14:27:16.329  3,15552,681880498,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:16.335  4,15553,681890706,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.363  4,15554,681890708,-;express_gpu device id 10, func id 11
+04-13 14:27:16.363  3,15555,681897733,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:16.363  4,15556,681915004,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.386  4,15557,681915006,-;express_gpu device id 10, func id 11
+04-13 14:27:16.386  3,15558,681922826,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:16.386  4,15559,681930842,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.386  4,15560,681930844,-;express_gpu device id 10, func id 11
+04-13 14:27:16.386  3,15561,681931126,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:16.401  3,15562,681943094,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:16.401  3,15563,681949254,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:16.401  4,15564,681956134,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.433  4,15565,681956136,-;express_gpu device id 10, func id 11
+04-13 14:27:16.433  4,15566,681980239,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.450  4,15567,681984441,-;express_gpu device id 10, func id 11
+04-13 14:27:16.450  4,15568,681997805,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.450  4,15569,682000117,-;express_gpu device id 10, func id 11
+04-13 14:27:16.450  3,15570,682005556,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:16.473  4,15571,682014821,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.473  4,15572,682014822,-;express_gpu device id 10, func id 11
+04-13 14:27:16.473  3,15573,682014826,-;access_token_id: access_tokenid_ioctl: access tokenid magic fail, TYPE=84
+04-13 14:27:16.489  4,15574,682039258,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.737  4,15575,682039261,-;express_gpu device id 10, func id 11
+04-13 14:27:16.738  4,15576,682274979,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.783  4,15577,682279612,-;express_gpu device id 10, func id 11
+04-13 14:27:16.783  4,15578,682330568,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.830  4,15579,682332655,-;express_gpu device id 10, func id 11
+04-13 14:27:16.830  4,15580,682371211,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.877  4,15581,682374877,-;express_gpu device id 10, func id 11
+04-13 14:27:16.877  4,15582,682420446,-;express_gpu invoke_id a0000000b 
+04-13 14:27:16.908  4,15583,682422559,-;express_gpu device id 10, func id 11
+04-13 14:27:16.908  4,15584,682449151,-;express_gpu invoke_id a0000000b 
+04-13 14:27:17.021  4,15585,682451996,-;express_gpu device id 10, func id 11
+04-13 14:27:17.021  4,15586,682558793,-;express_gpu invoke_id a0000000b 
+04-13 14:27:17.051  4,15587,682561584,-;express_gpu device id 10, func id 11
+04-13 14:27:17.051  4,15588,682588621,-;express_gpu invoke_id a0000000b 
+04-13 14:27:17.051  4,15589,682591065,-;express_gpu device id 10, func id 11
+04-13 14:27:17.066  4,15590,682605585,-;express_hotplug open
+04-13 14:27:17.080  4,15591,682608525,-;express_hotplug read
+04-13 14:27:17.080  4,15592,682624966,-;express_gpu invoke_id a0000000b 
+04-13 14:27:17.112  4,15593,682626851,-;express_gpu device id 10, func id 11
+04-13 14:27:17.112  4,15594,682656116,-;express_gpu invoke_id a0000000b 
+04-13 14:27:17.137  4,15595,682658471,-;express_gpu device id 10, func id 11
+04-13 14:27:17.137  4,15596,682685756,-;express_gpu invoke_id a0000000b 
+_hotplug open
+t 0
+
+sH  

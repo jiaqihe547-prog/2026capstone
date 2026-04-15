@@ -1,6 +1,7 @@
 import { DeviceInfo } from '../model/DeviceInfo';
 import { AppState } from '../state/AppState';
 import { DeviceManager } from '../business/DeviceManager';
+import { agentLog } from '../util/AgentDebugLog';
 import router from '@ohos.router';
 
 @Entry
@@ -30,11 +31,11 @@ struct DeviceList {
     Column() {
       // ---------------- 顶部导航栏 ----------------
       Row() {
-        Button('返回')
+        Button('Back')
           .onClick(() => {
             router.back();
           });
-        Text('设备列表')
+        Text('Devices List')
           .fontSize(20)
           .fontWeight(FontWeight.Bold)
           .layoutWeight(1)
@@ -85,8 +86,14 @@ struct DeviceList {
       .alignItems(HorizontalAlign.Start);
       Toggle({ type: ToggleType.Switch, isOn: device.isOn })
         .onChange((isOn: boolean) => {
-          // 先修改全局数据
-          this.deviceManager.toggleDevice(device.id);
+          // #region agent log
+          agentLog('DeviceList.ets:Toggle.onChange', 'before setDeviceState', {
+            'id': device.id,
+            'isOn': isOn ? 1 : 0
+          }, 'H3');
+          // #endregion
+          // 按控件当前状态同步到全局数据，避免状态反转导致不同步
+          this.deviceManager.setDeviceState(device.id, isOn);
           // 再刷新本地数据，触发UI更新
           this.refreshLocalData();
         });

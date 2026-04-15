@@ -15,12 +15,12 @@ struct SceneList {
     Column() {
       // ---------------- 顶部导航栏 ----------------
       Row() {
-        Button('返回')
+        Button('Back')
           .onClick(() => {
             // 点击返回首页
             router.back();
           });
-        Text('场景列表')
+        Text('Scene List')
           .fontSize(20)
           .fontWeight(FontWeight.Bold)
           .layoutWeight(1)
@@ -64,7 +64,7 @@ struct SceneList {
         .fontWeight(FontWeight.Medium)
         .layoutWeight(1);
       // 执行按钮
-      Button('执行')
+      Button('Execute')
         .onClick(() => {
           // 点击执行场景
           this.sceneManager.executeScene(scene.id);

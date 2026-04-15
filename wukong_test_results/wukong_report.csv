@@ -1,0 +1,46 @@
+module, Base Info
+name, base
+detail, info
+name, base, detail, info
+task status, success
+task time  , 4048
+task count , 1755
+module, Input Message Statistics
+name, all, com.example.capstone, SCBDesktop6
+detail, event, componment
+name, all, detail, event
+type ,execTimes,proportion
+total,0        ,          
+name, all, detail, componment
+type  ,execTimes,proportion,inputedTimes,expectInputTimes,coverage
+Text  ,1346     ,76.70%    ,19          ,19              ,100.00% 
+Button,249      ,14.19%    ,3           ,3               ,100.00% 
+Blank ,32       ,1.82%     ,1           ,1               ,100.00% 
+Toggle,112      ,6.38%     ,7           ,7               ,100.00% 
+Image ,16       ,0.91%     ,8           ,8               ,100.00% 
+total ,1755     ,100.00%   ,38          ,38              ,100.00% 
+name, com.example.capstone, detail, componment
+type  ,execTimes,proportion,inputedTimes,expectInputTimes,coverage
+Text  ,1346     ,77.40%    ,19          ,19              ,100.00% 
+Button,249      ,14.32%    ,3           ,3               ,100.00% 
+Blank ,32       ,1.84%     ,1           ,1               ,100.00% 
+Toggle,112      ,6.44%     ,7           ,7               ,100.00% 
+total ,1739     ,100.00%   ,30          ,30              ,100.00% 
+name, SCBDesktop6, detail, componment
+type ,execTimes,proportion,inputedTimes,expectInputTimes,coverage
+Image,16       ,100.00%   ,8           ,8               ,100.00% 
+total,16       ,100.00%   ,8           ,8               ,100.00% 
+module, ability Statistics
+name, all
+detail, ability
+name, all, detail, ability
+bundleName          ,inputedAbilityCount,abilitiesCount,coverage
+SCBDesktop6         ,1                  ,1             ,100.00% 
+com.example.capstone,1                  ,1             ,100.00% 
+total               ,2                  ,2             ,100.00% 
+module, Exception Message Statistics
+name, exception
+detail, statistics
+name, exception, detail, statistics
+type,times,proportion
+
