@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.1">
+  <diagram name="第 1 页" id="JvST7XSOwUfCNKHBMIyJ">
+    <mxGraphModel dx="1205" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xIvXXyiCQGegN_lYP1-7-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Smart Devices" vertex="1">
+          <mxGeometry height="60" width="120" x="659" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="xIvXXyiCQGegN_lYP1-7-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HarmonyOS Distributed Smart Home" vertex="1">
+          <mxGeometry height="60" width="120" x="379" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="xIvXXyiCQGegN_lYP1-7-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="User" vertex="1">
+          <mxGeometry height="60" width="120" x="49" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="xIvXXyiCQGegN_lYP1-7-5" edge="1" parent="1" source="xIvXXyiCQGegN_lYP1-7-4" style="endArrow=classic;html=1;rounded=0;" target="xIvXXyiCQGegN_lYP1-7-3" value="Control Command/Scene Config">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="279" y="510" as="sourcePoint" />
+            <mxPoint x="329" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xIvXXyiCQGegN_lYP1-7-6" edge="1" parent="1" source="xIvXXyiCQGegN_lYP1-7-4" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" target="xIvXXyiCQGegN_lYP1-7-3" value="Device/Scene Status Query &amp;amp; Display">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="289" y="460" />
+            </Array>
+            <mxPoint x="369" y="520" as="sourcePoint" />
+            <mxPoint x="419" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xIvXXyiCQGegN_lYP1-7-7" edge="1" parent="1" source="xIvXXyiCQGegN_lYP1-7-3" style="endArrow=classic;html=1;rounded=0;" target="xIvXXyiCQGegN_lYP1-7-2" value="Hardware Control Command">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="369" y="520" as="sourcePoint" />
+            <mxPoint x="419" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xIvXXyiCQGegN_lYP1-7-8" edge="1" parent="1" source="xIvXXyiCQGegN_lYP1-7-2" style="endArrow=classic;html=1;rounded=0;" target="xIvXXyiCQGegN_lYP1-7-3" value="Hardware Status Feedback">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="569" y="460" />
+            </Array>
+            <mxPoint x="369" y="520" as="sourcePoint" />
+            <mxPoint x="419" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

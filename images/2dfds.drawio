@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="UYCpxUeHpYc1Wl1qNcBF" name="第 1 页">
+    <mxGraphModel dx="1193" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YKPfsBVFjHT8C9XZ8wGv-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Scene Status Sync" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="YKPfsBVFjHT8C9XZ8wGv-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Scene Config Management" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="YKPfsBVFjHT8C9XZ8wGv-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Scene Execution Result" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YKPfsBVFjHT8C9XZ8wGv-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Scene Request" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YKPfsBVFjHT8C9XZ8wGv-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Device Control Command" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YKPfsBVFjHT8C9XZ8wGv-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Scene Trigger" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YKPfsBVFjHT8C9XZ8wGv-8" edge="1" parent="1" source="YKPfsBVFjHT8C9XZ8wGv-4" style="endArrow=classic;html=1;rounded=0;" target="YKPfsBVFjHT8C9XZ8wGv-6" value="Scene Trigger Request">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="390" as="sourcePoint" />
+            <mxPoint x="160" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKPfsBVFjHT8C9XZ8wGv-9" edge="1" parent="1" source="YKPfsBVFjHT8C9XZ8wGv-6" style="endArrow=classic;html=1;rounded=0;" target="YKPfsBVFjHT8C9XZ8wGv-5" value="Send Device Command">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="520" as="sourcePoint" />
+            <mxPoint x="160" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKPfsBVFjHT8C9XZ8wGv-10" edge="1" parent="1" source="YKPfsBVFjHT8C9XZ8wGv-6" style="endArrow=classic;html=1;rounded=0;" target="YKPfsBVFjHT8C9XZ8wGv-3" value="Scene Execution Result">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="390" as="sourcePoint" />
+            <mxPoint x="160" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKPfsBVFjHT8C9XZ8wGv-11" edge="1" parent="1" source="YKPfsBVFjHT8C9XZ8wGv-4" style="endArrow=classic;html=1;rounded=0;" target="YKPfsBVFjHT8C9XZ8wGv-2" value="Scene Config Request">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="520" as="sourcePoint" />
+            <mxPoint x="160" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKPfsBVFjHT8C9XZ8wGv-12" edge="1" parent="1" source="YKPfsBVFjHT8C9XZ8wGv-6" style="endArrow=classic;html=1;rounded=0;" target="YKPfsBVFjHT8C9XZ8wGv-2" value="Scene Action List">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="520" as="sourcePoint" />
+            <mxPoint x="160" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKPfsBVFjHT8C9XZ8wGv-13" edge="1" parent="1" source="YKPfsBVFjHT8C9XZ8wGv-2" style="endArrow=classic;html=1;rounded=0;" target="YKPfsBVFjHT8C9XZ8wGv-1" value="Scene Status Sync">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="520" as="sourcePoint" />
+            <mxPoint x="160" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKPfsBVFjHT8C9XZ8wGv-14" edge="1" parent="1" source="YKPfsBVFjHT8C9XZ8wGv-2" style="endArrow=classic;html=1;rounded=0;" target="YKPfsBVFjHT8C9XZ8wGv-3" value="Scene Config Result">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="520" as="sourcePoint" />
+            <mxPoint x="160" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
