@@ -47,7 +47,7 @@ This project is a capstone project that implements a smart home control system u
 │   └── ohosTest/                        # HarmonyOS automated test case directory
 ├── images/                              # Directory for project document illustrations, function demo screenshots, and architecture diagrams
 ├── wukong_test_results/                 # Directory for HarmonyOS Wukong automated stability test results
-├── result.py                            # Automated test result processing script
+├── result.py                            # Generate images based on the Wukong testing structure
 ├── hvigorfile.ts                        # Project build configuration script
 ├── oh-package.json5                     # Third-party dependency management configuration file for the project
 └── README.md                            # Project documentation
@@ -79,9 +79,9 @@ git clone https://github.com/jiaqihe547-prog/2026capstone.git and cd 2026capston
 3. Build and run the project on an emulator or a real device
 ---
 
- Author
+## Author
 
-He Jiaqi
+**He Jiaqi**
 
 B.Sc. Computer Science
 
