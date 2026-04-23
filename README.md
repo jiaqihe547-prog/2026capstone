@@ -51,7 +51,7 @@ This project is a capstone project that implements a smart home control system u
 ├── hvigorfile.ts                      
 ├── oh-package.json5                   
 └── README.md    
-
+```bash
 ---
 ##  Technologies Used
 
@@ -75,8 +75,8 @@ This project is a capstone project that implements a smart home control system u
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/yourname/yourrepo.git
+git clone https://github.com/jiaqihe547-prog/2026capstone.git
+cd 2026capstone/Capstone
 2. Open the project with DevEco Studio
 3. Build and run the project on an emulator or a real device
 ---
