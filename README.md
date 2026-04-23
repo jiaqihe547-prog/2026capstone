@@ -26,7 +26,7 @@ This project is a capstone project that implements a smart home control system u
 
 ## Project Structure
 
-```bash
+
 ├── AppScope/                          
 ├── entry/                             
 │   ├── src/main/                      
@@ -51,7 +51,7 @@ This project is a capstone project that implements a smart home control system u
 ├── hvigorfile.ts                      
 ├── oh-package.json5                   
 └── README.md    
-```bash
+
 ---
 ##  Technologies Used
 
