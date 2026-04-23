@@ -15,7 +15,7 @@ This project is a capstone project that implements a smart home control system u
 - Optimized user experience across devices  
 
 ### 3. Scene Linkage & Personalization
-- Custom scene creation  
+- Multiple scene creation  
 - Automation rules and one-click execution  
 
 ### 4. HarmonyOS Service Card
@@ -52,70 +52,39 @@ This project is a capstone project that implements a smart home control system u
 ├── oh-package.json5                   
 └── README.md    
 
+---
+##  Technologies Used
 
-\##  Technologies Used
+- **HarmonyOS**
+- **ArkTS (Ark TypeScript)**
+- **ArkUI**
+- **DevEco Studio 4.0**
+- **Wukong Automated Testing Tool**
 
+---
 
+##  Requirements
 
-\- \*\*HarmonyOS\*\*
+- DevEco Studio  
+- HarmonyOS SDK  
+- Node.js  
 
-\- \*\*ArkTS (Ark TypeScript)\*\*
+---
 
-\- \*\*ArkUI\*\*
+## ▶ How to Run
 
-\- \*\*DevEco Studio 4.0\*\*
+1. Clone the repository:
 
-\- \*\*Wukong Automated Testing Tool\*\*
+```bash
+git clone https://github.com/yourname/yourrepo.git
+2. Open the project with DevEco Studio
+3. Build and run the project on an emulator or a real device
+---
 
+ Author
 
+He Jiaqi
+B.Sc. Computer Science
+Wenzhou-Kean University
 
-\---
-
-\## Requirements
-
-
-
-\- DevEco Studio
-
-\- HarmonyOS SDK
-
-\- Node.js 
-
-
-
-\## How to Run
-
-
-
-1\. Clone the repository:
-
-&#x20;  git clone https://github.com/yourname/yourrepo.git
-
-
-
-2\. Open with DevEco Studio
-
-
-
-3\. Build and run the project on emulator or real device
-
-
-
-\##  Author
-
-
-
-\*\*He Jiaqi\*\*  
-
-B.Sc. Computer Science  
-
-Wenzhou-Kean University  
-
-
-
-Supervisor: Dr. Rashid Sangi  
-
-
-
-\---
-
+Supervisor: Dr. Rashid Sangi
